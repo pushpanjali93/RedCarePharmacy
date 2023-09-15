@@ -8,9 +8,9 @@ Run org.example.testRunner.TestRunner.java File.
 
 1. **The Base Class is designed to be multi-threaded. Driver instance is per thread and hence can be run in parallel.**
 
-3. **Consent Popup is Handled. Consent popup was present in Shadow Root and hence needed special Handling. It is handled via ClassName as Selenium does not support By Xpath for Shadow Root.**
+2. **Consent Popup is Handled. Consent popup was present in Shadow Root and hence needed special Handling. It is handled via ClassName as Selenium does not support By Xpath for Shadow Root.**
 
-2. Base Class includes parameter for providing Browser Name & Driver Path via Properties file.
+3. Base Class includes parameter for providing Browser Name & Driver Path via Properties file.
 
 
 **Code Improvements:**
